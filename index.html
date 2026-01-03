@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <title>Huyền Thiên Tu Tiên Lộ</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div id="game">
+
+  <header class="top-bar">
+    <h1>Huyền Thiên Tu Tiên Lộ</h1>
+    <div class="realm">Cảnh giới: <span id="realm">Luyện Khí 1</span></div>
+  </header>
+
+  <main class="main">
+
+    <!-- Cột trái -->
+    <section class="panel left">
+      <h2>Nhân Vật</h2>
+      <p>HP: <span id="hp">100</span></p>
+      <p>Linh lực: <span id="mp">50</span></p>
+      <p>Linh căn: <span id="root">?</span></p>
+
+      <button id="cultivateBtn">🧘 Tu luyện</button>
+      <button id="breakBtn">⚡ Đột phá</button>
+    </section>
+
+    <!-- Trung tâm -->
+    <section class="panel center">
+      <h2>Khu Vực</h2>
+      <div id="map">Phàm Cốc</div>
+
+      <button id="fightBtn">⚔️ Chiến đấu</button>
+
+      <div id="log"></div>
+    </section>
+
+    <!-- Cột phải -->
+    <section class="panel right">
+      <h2>Hành Trang</h2>
+      <ul id="bag">
+        <li>Đan dược sơ cấp</li>
+        <li>Linh thạch x10</li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <span>Public v1.0</span>
+  </footer>
+
+</div>
+
+<script src="game.js"></script>
+</body>
+</html>
